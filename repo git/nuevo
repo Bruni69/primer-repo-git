@@ -5,4 +5,4 @@ elif a<0:
     resultado="es negativo"    
 elif a==0:
     resultado="es neutro"
-print(a, "es",resultado)
+print(f" {a} es {resultado}")
