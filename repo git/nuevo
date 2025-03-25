@@ -1,0 +1,8 @@
+a=int(input("ingrese el valor de a "))
+if a>0:
+    resultado="es positivo"
+elif a<0:
+    resultado="es negativo"    
+elif a==0:
+    resultado="es neutro"
+print(a, "es",resultado)
