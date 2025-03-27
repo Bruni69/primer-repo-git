@@ -1,8 +1,13 @@
-a=int(input("ingrese el valor de a "))
-if a>0:
-    resultado="es positivo"
-elif a<0:
-    resultado="es negativo"    
-elif a==0:
-    resultado="es neutro"
-print(f" {a} es {resultado}")
+x = int(input("ingrese el valor"))
+if x == 0:
+    
+    resultado ="neutro"
+    
+elif x>0:
+    
+    resultado="positivo"
+else:
+    resultado="negativo"
+        
+    
+print(x, "es" ,resultado)
